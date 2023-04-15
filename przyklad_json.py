@@ -22,6 +22,3 @@ with open("moje_dane.csv","w") as plik:
         plik.write("\n")
 
 
-import folium
-m = folium.Map(location=[52.2332,21.0614], zoom_start=7)
-m.show_in_browser()
